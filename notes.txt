@@ -1,0 +1,22 @@
+Preserving referential transparency
+
+We use applicatives so that we don't have to repeat ourselves
+
+Monad = Applicative + Bind
+
+Monads don't compose
+Applicatives composes
+F-map composes
+
+What does it mean to have a kind?
+
+how does Function f => .. f a -> f b make sense
+how is a kind defined for a functor?
+
+if the thing on the left is not used on the right
+then you can use applicatives, meaning the arrows
+in the do notation
+
+Programming in Haskell by Graham Hutton
+
+CS 194 UPenn
